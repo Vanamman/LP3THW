@@ -1,0 +1,84 @@
+print - prints the given items to the console/user
+
+() - Parantheses. Used for functions.
+
+, - used inside functions to seperate items or different types of code.
+
+"" - Used to denote when a string starts and ends.
+
+# - Used to comment out code. Commenting is code that doesn't run and is usd to explain what code does.
+
+_ - used mainly for multi-word variables
+
++ - Used to add one value to another.
+
++= - Sets something equal to itself plus another value.
+
+= - Used to assign a value to a variable
+
+== - Used to check if two values are equal to each other.
+
+- - used to subtract one value from another
+
+-= - Sets something equal to itself minus another value.
+
+* - used to multiply one value to another
+
+% - called modulo. The value of the remainder when dividing numbers
+
+/ - Used to divide one value from another
+
+< - Less than symbol
+
+> - Greater than symbol
+
+>= - Greater than or equal to symbol
+
+<= - Less than or equal to symbol
+
+f - Tells the code that this is an f-string. Used to insert code into strings etc.
+
+{} - Used inside of f-strings to insert code where these braces are.
+
+\n - New line escape code. Prints a new line
+
+\t - tab excape code. Prints a tab character.
+
+\\ - backspace escape code. Allows us to print a backspace character
+
+True - boolean value meaning something is True
+
+False - boolean value meaning something is False
+
+.format - can be used just like an f-string
+
+end = '' - Used to end a line of code with a character that is not a newline character.
+
+""" - triple quotes. Used to make multi-line strings. End the string with another set of triple quotes.
+
+input() - Asking user for input and then using it in your program.
+
+from * import * - Telling python to find a code library and import a module from that library to our code. This allows us to use already established code in our program.
+
+*.read() - reads the file passed where * is. Prints it to the console.
+
+*.close() - closes the file passed where * is.
+
+open() - opens the file passed to it.
+
+*.write() - writes the content inside the Parantheses to the target file or variable.
+
+*.seek() - moves through a given file. ex:
+    file.seek(0) - will move to the beginning of a file
+    file.seek(1) - will stay at the current part of the file.
+    file.seek(2) - will move to the end of the file.
+
+*.readline() - Reads the file until a new line is reached or the end of the file is reached.
+
+def - begins the creation of a function that can be reused by calling the given name of that function. Normal syntax in python is:
+    def funcname(parameter_list):
+    pass
+
+: - used in defining functions and loops. Any other code inside the function must now be indented 4 spaces. Code not indented will be run as seperate from the function or loop.
+
+return - returns a value to the function, but does not print it to the stream.
